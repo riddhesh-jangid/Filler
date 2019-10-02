@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "FILLER",
+  "description": "This extension allows the user to save entries and fill in input fields of webpages",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "main.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
+
